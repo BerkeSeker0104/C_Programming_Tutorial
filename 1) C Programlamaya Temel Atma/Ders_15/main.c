@@ -11,7 +11,7 @@ int main()
 
     int i =0;
 
-   /* for( i=0; i<3; i++){
+    for( i=0; i<3; i++){
         scanf("%d", &sayilarim[i]);
 
     }for( i=0; i<3; i++){
@@ -31,7 +31,7 @@ int main()
         printf("%d ", sayilarim[i]);
         i++;
     }
-    */
+    
     // do while ile kullanicidan tek boyutlu sayi dizisi degerleri alma ve basma
 
     do {
