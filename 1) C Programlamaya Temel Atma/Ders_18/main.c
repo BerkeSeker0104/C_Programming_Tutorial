@@ -91,5 +91,18 @@ int main()
 
     printf("Birlesmeden sonra: %s\n", strncat(birinci_dizi, ikinci_dizi, a));
 
+    // gets() and fgets() kullanimi
+
+    char name[30];
+
+    printf("Lutfen isminizi giriniz : \n");
+
+    // gets(name);   --- guvenlik riski oldugu icin fgets() kullaniyoruz
+
+    fgets(name, sizeof(name), stdin);
+
+    printf("isminiz : %s \n", name);
+
+
     return 0;
 }
