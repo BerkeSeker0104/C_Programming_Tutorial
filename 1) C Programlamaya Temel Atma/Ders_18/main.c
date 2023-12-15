@@ -104,5 +104,56 @@ int main()
     printf("isminiz : %s \n", name);
 
 
+
+
+    // strrev() Fonksiyonu
+
+    char new_dizi[100];
+
+    printf("Lutfen dizimize isminizi giriniz : \n");
+    scanf("%s", &new_dizi);
+
+    printf("Girdiginiz ad : %s \n", new_dizi);
+    printf("Girdiginiz adin ters cevrilmis hali : %s \n", strrev(new_dizi));
+
+
+
+
+    // strlwr fonksiyonu
+
+    char universite_adi [100];
+
+    printf("Lutfen universite adinizi buyuk harflerle giriniz: \n");
+    fgets(universite_adi, sizeof(universite_adi), stdin);
+
+    printf("Girdiginiz universite adi : %s \n", universite_adi);
+    printf("Girgidiniz universite adinin kucuk harfli yazimi : %s \n ", strlwr(universite_adi));
+
+
+    // strupr() kullanimi
+
+    char universite_adi [100];
+
+    printf("Lutfen universite adinizi kucuk harflerle giriniz: \n");
+    fgets(universite_adi, sizeof(universite_adi), stdin);
+
+    printf("Girdiginiz universite adi : %s \n", universite_adi);
+    printf("Girgidiniz universite adinin buyuk harfli yazimi : %s \n ", strupr(universite_adi));
+
+
+
+
+
+
+    // strstr() kullanimi
+
+    char can[100] = "C dilini ogreniyoruz";
+    char *sub;
+
+    sub=strstr(can, "dil");
+    printf("Arama sonrasi yeni string: %s", sub);
+
+
+
     return 0;
 }
