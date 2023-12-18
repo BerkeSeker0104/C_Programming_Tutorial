@@ -47,7 +47,7 @@ int main()
 
 
 
-/*
+
      // fonksiyon kullanmadan programimizi yazalim :
 
     if(islem == '+'){
@@ -71,7 +71,7 @@ int main()
         printf("Hatali giris yaptiniz ! \n");
     }
 
-    */
+
 
 
     return 0;
