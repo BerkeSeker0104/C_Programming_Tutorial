@@ -1,5 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
+
+// FUNCTIONS
+
 int tekmiciftmi(int degisken)
 {
     if(degisken%2==0)
