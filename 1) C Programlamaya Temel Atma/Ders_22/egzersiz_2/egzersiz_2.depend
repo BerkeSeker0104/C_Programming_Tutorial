@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1703754887 source:c:\users\berke\desktop\software\c_programming_tutorial\1) c programlamaya temel atma\ders_22\egzersiz_2\main.c
+	<stdio.h>
+	<stdlib.h>
+
